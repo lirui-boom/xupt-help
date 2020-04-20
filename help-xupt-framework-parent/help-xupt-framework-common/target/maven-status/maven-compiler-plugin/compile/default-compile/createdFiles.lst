@@ -1,0 +1,8 @@
+cn\edu\xupt\help\framework\common\config\AMQPConfig.class
+cn\edu\xupt\help\framework\common\exception\ExceptionCatch.class
+cn\edu\xupt\help\framework\common\model\response\PageResult.class
+cn\edu\xupt\help\framework\common\config\Swagger2Configuration.class
+cn\edu\xupt\help\framework\common\config\DataSourceConfig.class
+cn\edu\xupt\help\framework\common\exception\ExceptionCast.class
+cn\edu\xupt\help\framework\common\model\response\ResponseResult.class
+cn\edu\xupt\help\framework\common\exception\CustomException.class

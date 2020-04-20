@@ -1,0 +1,5 @@
+cn\edu\xupt\help\test\TestServiceApplication.class
+cn\edu\xupt\help\test\controller\UserController.class
+cn\edu\xupt\help\test\service\UserService.class
+cn\edu\xupt\help\test\service\impl\UserServiceImpl.class
+cn\edu\xupt\help\test\mapper\TbUserMapper.class
