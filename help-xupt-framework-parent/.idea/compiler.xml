@@ -9,6 +9,7 @@
         <module name="help-xupt-framework-common" />
         <module name="help-xupt-framework-model" />
         <module name="help-xupt-framework-utils" />
+        <module name="help-xupt-service-message" />
         <module name="help-xupt-service-test" />
       </profile>
     </annotationProcessing>

@@ -13,6 +13,7 @@
         <module>help-xupt-framework-utils</module>
         <module>help-xupt-framework-model</module>
         <module>help-xupt-service-test</module>
+        <module>help-xupt-service-message</module>
     </modules>
 
     <parent>
