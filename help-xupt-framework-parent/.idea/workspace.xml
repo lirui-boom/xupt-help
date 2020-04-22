@@ -9,6 +9,7 @@
     <ignored path="$PROJECT_DIR$/help-xupt-framework-utils/target/" />
     <ignored path="$PROJECT_DIR$/help-xupt-service-test/target/" />
     <ignored path="$PROJECT_DIR$/help-xupt-service-message/target/" />
+    <ignored path="$PROJECT_DIR$/help-xupt-service-comment/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,15 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MessageCollectController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/help-xupt-service-message/src/main/java/cn/edu/xupt/help/message/controller/MessageCollectController.java">
+      <file leaf-file-name="CommentReplyController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/controller/CommentReplyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+            <state relative-caret-position="245">
+              <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,19 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/framework/common/model/response/ResponseResult.java" />
-        <option value="$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/framework/common/exception/ExceptionCast.java" />
-        <option value="$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/framework/common/exception/CustomException.java" />
-        <option value="$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/framework/common/exception/ExceptionCatch.java" />
-        <option value="$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/framework/common/config/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/framework/common/config/AMQPConfig.java" />
-        <option value="$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/framework/common/config/Swagger2Configuration.java" />
-        <option value="$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/help/framework/common/config/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/help-xupt-framework-utils/src/main/java/cn/edu/xupt/help/framework/utils/TokenUtils.java" />
-        <option value="$PROJECT_DIR$/help-xupt-framework-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/help-xupt-service-test/src/main/resources/mapping/TbUserMapper.xml" />
-        <option value="$PROJECT_DIR$/help-xupt-service-test/pom.xml" />
         <option value="$PROJECT_DIR$/help-xupt-service-test/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/help-xupt-service-test/src/main/java/cn/edu/xupt/help/test/service/UserService.java" />
         <option value="$PROJECT_DIR$/help-xupt-service-test/src/main/java/cn/edu/xupt/help/test/mapper/TbUserMapper.java" />
@@ -90,6 +76,25 @@
         <option value="$PROJECT_DIR$/help-xupt-service-message/src/main/java/cn/edu/xupt/help/message/service/MessageCollectService.java" />
         <option value="$PROJECT_DIR$/help-xupt-service-message/src/main/java/cn/edu/xupt/help/message/service/impl/MessageCollectServiceImpl.java" />
         <option value="$PROJECT_DIR$/help-xupt-service-message/src/main/java/cn/edu/xupt/help/message/controller/MessageCollectController.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/pom.xml" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/CommentApplication.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/mapping/TbCommentMapper.xml" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/mapping/TbCommentReplyMapper.xml" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/mapper/TbCommentReplyMapper.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/mapper/TbCommentMapper.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/mapper/TbUserMapper.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/mapping/TbUserMapper.xml" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/mapping/TbGoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/mapper/TbGoodsMapper.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/mapper/TbMessageMapper.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/mapping/TbMessageMapper.xml" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/service/impl/CommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/service/impl/CommentReplyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/service/CommentReplyService.java" />
+        <option value="$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/controller/CommentReplyController.java" />
       </list>
     </option>
   </component>
@@ -132,7 +137,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="430" />
+    <option name="x" value="295" />
     <option name="y" value="70" />
     <option name="width" value="1400" />
     <option name="height" value="780" />
@@ -142,8 +147,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,75 +159,63 @@
             <path>
               <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="xupt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="xupt" type="462c0819:PsiDirectoryNode" />
-              <item name="help" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -230,12 +223,11 @@
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="xupt" type="462c0819:PsiDirectoryNode" />
               <item name="help" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -243,12 +235,153 @@
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="xupt" type="462c0819:PsiDirectoryNode" />
               <item name="help" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
+              <item name="comment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="xupt" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="comment" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="xupt" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="comment" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="xupt" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="comment" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="xupt" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="comment" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-comment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="xupt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="xupt" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
               <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -258,13 +391,43 @@
               <item name="xupt" type="462c0819:PsiDirectoryNode" />
               <item name="help" type="462c0819:PsiDirectoryNode" />
               <item name="message" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="xupt" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="help-xupt-framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="help-xupt-framework-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="help-xupt-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,15 +443,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.edu.xupt.help.comment.mapper" />
       <recent name="cn.edu.xupt.help.message" />
       <recent name="cn.edu.xupt.help.test.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BOOM\Desktop\WorkSpace\help-xupt-framework-parent\help-xupt-service-comment\src\main\resources\mapping" />
+      <recent name="C:\Users\BOOM\Desktop\WorkSpace\help-xupt-framework-parent\help-xupt-service-comment\src\main\java\cn\edu\xupt\help\comment\mapper" />
+      <recent name="C:\Users\BOOM\Desktop\WorkSpace\help-xupt-framework-parent\help-xupt-service-comment\src\main\resources" />
       <recent name="C:\Users\BOOM\Desktop\WorkSpace\help-xupt-framework-parent\help-xupt-service-message\src\main\resources\mapping" />
       <recent name="C:\Users\BOOM\Desktop\WorkSpace\help-xupt-framework-parent\help-xupt-service-message\src\main\java\cn\edu\xupt\help\message\mapper" />
-      <recent name="C:\Users\BOOM\Desktop\WorkSpace\help-xupt-framework-parent\help-xupt-service-message\src\main\resources" />
-      <recent name="C:\Users\BOOM\Desktop\WorkSpace\help-xupt-framework-parent\help-xupt-service-test\src\main\java\cn\edu\xupt\help\test\mapper" />
-      <recent name="C:\Users\BOOM\Desktop\WorkSpace\help-xupt-framework-parent\help-xupt-service-test\src\main\resources\mapping" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,7 +467,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MessageApplication">
+  <component name="RunManager" selected="Spring Boot.CommentApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -322,6 +486,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="CommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="help-xupt-service-comment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.xupt.help.comment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.xupt.help.comment.CommentApplication" />
     </configuration>
     <configuration name="MessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="help-xupt-service-message" />
@@ -368,9 +542,11 @@
     <list>
       <item itemvalue="Spring Boot.TestServiceApplication" />
       <item itemvalue="Spring Boot.MessageApplication" />
+      <item itemvalue="Spring Boot.CommentApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CommentApplication" />
         <item itemvalue="Spring Boot.MessageApplication" />
         <item itemvalue="Spring Boot.TestServiceApplication" />
       </list>
@@ -389,18 +565,21 @@
       <workItem from="1587360899524" duration="3969000" />
       <workItem from="1587432289526" duration="5874000" />
       <workItem from="1587452590973" duration="434000" />
+      <workItem from="1587453336520" duration="115000" />
+      <workItem from="1587520763136" duration="12167000" />
+      <workItem from="1587545981353" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10277000" />
+    <option name="totallyTimeSpent" value="22601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.14745308" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1266756" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
@@ -410,16 +589,15 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32909605" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32627118" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3361582" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3036193" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27412868" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -427,6 +605,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32909605" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -439,135 +618,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-utils/src/main/java/cn/edu/xupt/help/framework/utils/FastDFSClient.java" />
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-utils/src/main/java/cn/edu/xupt/help/framework/utils/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-utils/src/main/java/cn/edu/xupt/help/framework/utils/BCryptUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-utils/src/main/java/cn/edu/xupt/help/framework/utils/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-utils/src/main/java/cn/edu/xupt/help/framework/utils/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-utils/src/main/java/cn/edu/xupt/help/framework/utils/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-utils/src/main/java/cn/edu/xupt/help/framework/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/help/framework/common/config/AMQPConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/help/framework/common/config/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-model/src/main/java/cn/edu/xupt/help/framework/domain/TbComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="411" column="33" selection-start-line="411" selection-start-column="33" selection-end-line="411" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-service-test/src/main/resources/mapping/TbUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-service-test/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-service-test/src/main/java/cn/edu/xupt/help/test/mapper/TbUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-service-test/src/main/java/cn/edu/xupt/help/test/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-service-test/src/main/java/cn/edu/xupt/help/test/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-service-test/src/main/java/cn/edu/xupt/help/test/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/help/framework/common/exception/ExceptionCast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/help/framework/common/exception/ExceptionCatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-framework-common/src/main/java/cn/edu/xupt/help/framework/common/exception/CustomException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-service-test/src/main/java/cn/edu/xupt/help/test/TestServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -680,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-service-message/src/main/java/cn/edu/xupt/help/message/MessageApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/help-xupt-service-message/src/main/java/cn/edu/xupt/help/message/service/impl/MessageCategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
@@ -705,13 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="47" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-service-message/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -768,20 +804,166 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="47" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-message/src/main/java/cn/edu/xupt/help/message/controller/MessageCollectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-message/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-message/src/main/java/cn/edu/xupt/help/message/MessageApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" selection-start-line="12" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/CommentApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/help-xupt-service-message/src/main/java/cn/edu/xupt/help/message/controller/MessageCollectController.java">
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/mapping/TbCommentReplyMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        <state relative-caret-position="44">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/mapping/TbCommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/mapper/TbCommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/mapper/TbCommentReplyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/service/impl.java" />
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/mapping/TbUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/mapper/TbUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/mapping/TbGoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/mapper/TbGoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/mapper/TbMessageMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/resources/mapping/TbMessageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/service/CommentReplyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/service/impl/CommentReplyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/service/impl/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="302" column="13" lean-forward="true" selection-start-line="302" selection-start-column="13" selection-end-line="302" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-xupt-service-comment/src/main/java/cn/edu/xupt/help/comment/controller/CommentReplyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
