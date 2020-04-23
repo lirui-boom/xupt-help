@@ -15,6 +15,7 @@
         <module>help-xupt-service-test</module>
         <module>help-xupt-service-message</module>
         <module>help-xupt-service-comment</module>
+        <module>help-xupt-service-goods</module>
     </modules>
 
     <parent>

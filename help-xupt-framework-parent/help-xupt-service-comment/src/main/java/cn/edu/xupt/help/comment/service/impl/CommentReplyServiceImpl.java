@@ -92,6 +92,7 @@ public class CommentReplyServiceImpl implements CommentReplyService {
         if ("2".equals(tbCommentReply.getReplyType())) { //回复的回复
 
             TbCommentReply parentReply = tbCommentReplyMapper.selectByPrimaryKey(tbCommentReply.getReplyId());
+            tbComment = tbCommentMapper.selectByPrimaryKey(tbCommentReply.getCommentId());
 
             if (parentReply == null) {
                 ExceptionCast.cast(ResponseResult.build(400, "回复信息不存在！"));
