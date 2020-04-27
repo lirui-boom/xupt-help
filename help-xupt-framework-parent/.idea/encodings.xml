@@ -7,7 +7,10 @@
     <file url="file://$PROJECT_DIR$/help-xupt-framework-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/help-xupt-service-comment" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/help-xupt-service-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/help-xupt-service-link" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/help-xupt-service-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/help-xupt-service-notice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/help-xupt-service-swiper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/help-xupt-service-test" charset="UTF-8" />
   </component>
 </project>

@@ -204,52 +204,52 @@ public class TbSwiperExample {
             return (Criteria) this;
         }
 
-        public Criteria andSwiperIdEqualTo(Integer value) {
+        public Criteria andSwiperIdEqualTo(Long value) {
             addCriterion("swiper_id =", value, "swiperId");
             return (Criteria) this;
         }
 
-        public Criteria andSwiperIdNotEqualTo(Integer value) {
+        public Criteria andSwiperIdNotEqualTo(Long value) {
             addCriterion("swiper_id <>", value, "swiperId");
             return (Criteria) this;
         }
 
-        public Criteria andSwiperIdGreaterThan(Integer value) {
+        public Criteria andSwiperIdGreaterThan(Long value) {
             addCriterion("swiper_id >", value, "swiperId");
             return (Criteria) this;
         }
 
-        public Criteria andSwiperIdGreaterThanOrEqualTo(Integer value) {
+        public Criteria andSwiperIdGreaterThanOrEqualTo(Long value) {
             addCriterion("swiper_id >=", value, "swiperId");
             return (Criteria) this;
         }
 
-        public Criteria andSwiperIdLessThan(Integer value) {
+        public Criteria andSwiperIdLessThan(Long value) {
             addCriterion("swiper_id <", value, "swiperId");
             return (Criteria) this;
         }
 
-        public Criteria andSwiperIdLessThanOrEqualTo(Integer value) {
+        public Criteria andSwiperIdLessThanOrEqualTo(Long value) {
             addCriterion("swiper_id <=", value, "swiperId");
             return (Criteria) this;
         }
 
-        public Criteria andSwiperIdIn(List<Integer> values) {
+        public Criteria andSwiperIdIn(List<Long> values) {
             addCriterion("swiper_id in", values, "swiperId");
             return (Criteria) this;
         }
 
-        public Criteria andSwiperIdNotIn(List<Integer> values) {
+        public Criteria andSwiperIdNotIn(List<Long> values) {
             addCriterion("swiper_id not in", values, "swiperId");
             return (Criteria) this;
         }
 
-        public Criteria andSwiperIdBetween(Integer value1, Integer value2) {
+        public Criteria andSwiperIdBetween(Long value1, Long value2) {
             addCriterion("swiper_id between", value1, value2, "swiperId");
             return (Criteria) this;
         }
 
-        public Criteria andSwiperIdNotBetween(Integer value1, Integer value2) {
+        public Criteria andSwiperIdNotBetween(Long value1, Long value2) {
             addCriterion("swiper_id not between", value1, value2, "swiperId");
             return (Criteria) this;
         }

@@ -16,6 +16,9 @@
         <module>help-xupt-service-message</module>
         <module>help-xupt-service-comment</module>
         <module>help-xupt-service-goods</module>
+        <module>help-xupt-service-notice</module>
+        <module>help-xupt-service-swiper</module>
+        <module>help-xupt-service-link</module>
     </modules>
 
     <parent>
