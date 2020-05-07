@@ -19,6 +19,8 @@
         <module>help-xupt-service-notice</module>
         <module>help-xupt-service-swiper</module>
         <module>help-xupt-service-link</module>
+        <module>help-xupt-service-dept</module>
+        <module>help-xupt-service-upload</module>
     </modules>
 
     <parent>
